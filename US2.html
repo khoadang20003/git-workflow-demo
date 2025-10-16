@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>US2 - Xem Câu trả lời</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{font-family:Arial, sans-serif;margin:20px;}
+    h1{color:#2b6cb0;}
+    pre{background:#f6f8fa;padding:12px;border-radius:6px;}
+    input{width:80%;padding:8px;margin:12px 0;}
+    button{background:#38a169;color:white;padding:10px 16px;border:none;border-radius:6px;font-size:16px;cursor:pointer;}
+    button:hover{opacity:0.9;}
+  </style>
+</head>
+<body>
+  <h1>US2 - Xem Câu trả lời</h1>
+  <p><a href="index.html">⬅ Quay lại trang chính</a></p>
+
+  <h3>Mô phỏng tìm kiếm FAQ</h3>
+  <input type="text" placeholder="Nhập từ khóa để tìm kiếm...">
+  <button onclick="alert('Không tìm thấy kết quả phù hợp (ví dụ)')">Tìm kiếm</button>
+
+  <h3>Acceptance Criteria</h3>
+  <h4>AC1 – Hiển thị danh sách câu hỏi & trả lời</h4>
+  <pre><strong>Given</strong> người dùng đã truy cập trang FAQ
+<strong>When</strong> hệ thống tải dữ liệu
+<strong>Then</strong> danh sách câu hỏi và câu trả lời sẽ được hiển thị đầy đủ.</pre>
+
+  <h4>AC2 – Tìm kiếm theo từ khóa</h4>
+  <pre><strong>Given</strong> người dùng nhập từ khóa vào ô tìm kiếm
+<strong>When</strong> nhấn nút “Tìm kiếm”
+<strong>Then</strong> hệ thống sẽ lọc và hiển thị các câu hỏi – câu trả lời liên quan.</pre>
+
+  <h4>AC3 – Không có kết quả (Edge Case)</h4>
+  <pre><strong>Given</strong> người dùng nhập từ khóa không khớp với bất kỳ câu hỏi nào
+<strong>When</strong> nhấn “Tìm kiếm”
+<strong>Then</strong> hệ thống sẽ hiển thị thông báo “Không tìm thấy kết quả phù hợp”.</pre>
+</body>
+<h3>Definition of Done (DoD)</h3>
+<ul>
+  <li>Tính năng hoạt động đúng theo tất cả Acceptance Criteria.</li>
+  <li>Giao diện ổn định, không lỗi.</li>
+  <li>Đã được review và merge vào nhánh chính.</li>
+</ul>
+
+<h3>Effort Estimate</h3>
+<p>2 Story Points (≈ 3 giờ)</p>`
+</html>
